@@ -1,0 +1,7 @@
+*
+!lib/**/*
+lib/**/*.map
+lib/test/
+lib/tools/
+!bin/**/*
+bin/**/*.map

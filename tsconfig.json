@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./lib",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "lib": ["es6"]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "./tools/**/*.ts"
+  ],
+  "exclude": [
+    "./src-cli", "./bin", "./lib"
+  ]
+}
